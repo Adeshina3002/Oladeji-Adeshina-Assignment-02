@@ -31,15 +31,9 @@ console.log(sumOfNumbers())
  */
 
 function countEvenNumbers(arrayOfNumbers) {
-  let sumEven = 0;
-  for (i = 0; i < arrayOfNumbers; i++) {
-    if (array0fNumbers [i] % 2 === 0) {
-      sumEven += arrayOfNumbers [i]
-    }
-  }
     return sumEven;
 }
-console.log(countEvenNumbers())
+// console.log(countEvenNumbers())
 // assignment.countEvenNumbers = countEvenNumbers;
 
 /**
