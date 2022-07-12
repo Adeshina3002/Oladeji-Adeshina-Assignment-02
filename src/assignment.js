@@ -20,7 +20,7 @@ function sumOfNumbers(arrayOfNumbers) {
     return sum;
 }
 
-console.log(sumOfNumbers())
+console.log(sumOfNumbers(arrayOfNumbers))
 // assignment.sumOfNumbers = sumOfNumbers;
 
 /**
@@ -39,7 +39,7 @@ function countEvenNumbers(arrayOfNumbers) {
   }
     return sumEven;
 }
-console.log(countEvenNumbers())
+console.log(countEvenNumbers(arrayOfNumbers))
 // assignment.countEvenNumbers = countEvenNumbers;
 
 /**
