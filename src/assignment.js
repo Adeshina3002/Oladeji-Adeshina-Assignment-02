@@ -10,7 +10,6 @@ const assignment = {};
  * Calculate and return the sum of the numbers in an array.
  * If you did Challenge - 1, remove the comment in the line just after this function
  */
-let arrayOfNumbers = [8, 4, 6, 3];
 
 function sumOfNumbers(arrayOfNumbers) {
   let sum = 0;
@@ -20,8 +19,7 @@ function sumOfNumbers(arrayOfNumbers) {
     return sum;
 }
 
-console.log(sumOfNumbers(arrayOfNumbers))
-// assignment.sumOfNumbers = sumOfNumbers;
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -31,16 +29,15 @@ console.log(sumOfNumbers(arrayOfNumbers))
  */
 
 function countEvenNumbers(arrayOfNumbers) {
-  let sumEven = 0;
+  let count = 0;
   for (i = 0; i < arrayOfNumbers.length; i++) {
     if (array0fNumbers [i] % 2 === 0) {
-      sumEven += arrayOfNumbers [i]
+      count++
     }
   }
-    return sumEven;
+    return count;
 }
-console.log(countEvenNumbers(arrayOfNumbers))
-// assignment.countEvenNumbers = countEvenNumbers;
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
