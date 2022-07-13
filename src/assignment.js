@@ -14,7 +14,7 @@ let arrayOfNumbers = [8, 4, 6, 3];
 
 function sumOfNumbers(arrayOfNumbers) {
   let sum = 0;
-  for (i = 0; i < arrayOfNumbers; i++) {
+  for (i = 0; i < arrayOfNumbers.length; i++) {
     sum += arrayOfNumbers[i]
   }
     return sum;
@@ -32,7 +32,7 @@ console.log(sumOfNumbers(arrayOfNumbers))
 
 function countEvenNumbers(arrayOfNumbers) {
   let sumEven = 0;
-  for (i = 0; i < arrayOfNumbers; i++) {
+  for (i = 0; i < arrayOfNumbers.length; i++) {
     if (array0fNumbers [i] % 2 === 0) {
       sumEven += arrayOfNumbers [i]
     }
